@@ -1,0 +1,11 @@
+[project]
+name = "comfyui-ltx-msr-memory-studio"
+version = "0.1.0"
+description = "Role-aware LTX 2.3 MSR visual memory nodes with prompt mentions"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
