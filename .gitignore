@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Do not upload models/checkpoints/outputs
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.gguf
+*.onnx
+*.engine
+*.bin
+*.mp4
+*.mov
+*.webm
+output/
+outputs/
+models/
