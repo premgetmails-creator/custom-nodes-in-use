@@ -1,10 +1,27 @@
 .DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+*.so
+*.dylib
 *.log
 
-# Do not upload models/checkpoints/outputs
+.venv/
+venv/
+env/
+node_modules/
+
+models/
+output/
+outputs/
+input/
+temp/
+tmp/
+
 *.safetensors
 *.ckpt
 *.pt
@@ -16,6 +33,9 @@ __pycache__/
 *.mp4
 *.mov
 *.webm
-output/
-outputs/
-models/
+*.avi
+*.mkv
+*.zip
+*.tar
+*.tar.gz
+*.7z
